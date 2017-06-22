@@ -1,0 +1,12 @@
+body {
+    margin:auto;
+}
+
+.main-content{
+    margin:auto;
+    border:1px solid grey;
+    border-radius: 5px;
+    border-style:;
+    text-align: center;
+    width:70%;
+}

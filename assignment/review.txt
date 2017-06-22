@@ -1,0 +1,42 @@
+1.
+    in beginning post[] doesnt have any value
+    thats why it showing error when we call it fisrt time
+    if we don't use isset($_POST[]) TO CHECK if it has a value;
+2.
+    css can not pass as value
+    we can only apply it to chracter externaly
+    echo '<span style="color:red;">'.$var.'</span>';
+3.
+    foreach is loop to go from start element to last element
+    foreach donot copy or make any new array
+    foreach in associative array
+        foreach( $string as $index => $value)
+        in this $index is vaalue for index in $string array
+        & $value is representing value of $string[$index];
+4.
+    fileopen and fileclose should be present together
+    explode () can help us to convert into array
+    remove unwanted character from string before converting it into array;
+5.
+    str_replace(' ', '-', $string); // Replaces all spaces with hyphens.
+6.
+    preg_replace('/[^A-Za-z0-9\-]/', '', $string); // Removes special chars.
+7.
+    preg_replace('/-+/', '-', $string); // Replaces multiple hyphens with single one.
+8.
+    we can not use two php file containing $_request[php self] as it will generaate error.
+9.
+    include file implies to excute whole file at the point of include and execute part of program at function call .
+10.
+    unset(var); make that var NULL;
+    if used in array it will remove that element like
+    [0]=>0,[1]=>1,[2]=>2,[3]=>3,[4]=>4,[5]=>5
+    element 3
+    then array will look like
+    [0]=>0,[1]=>1,[2]=>2,[4]=>4,[5]=>5
+    in this index is not serialized but it has removed element 3
+
+    to make array serialized we have to use
+    array_value($array);
+    it will change the index of element to
+    [0]=>0,[1]=>1,[2]=>2,[3]=>4[4]=>5
