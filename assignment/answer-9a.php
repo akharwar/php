@@ -34,7 +34,7 @@
      ?>
      <h1>Answer 9a: prime number function </h1>
      <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-         <input type="number" name="number1">
+         <input type="number" name="number1" value="0">
          <input type="submit" name="submit">
      </form>
 
