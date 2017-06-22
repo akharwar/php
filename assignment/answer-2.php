@@ -12,7 +12,7 @@
             <h1> Answer 2:</h1>
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                 Sample text:
-                <input type="text" name="string1">
+                <input type="text" name="string1" value="<?php echo $string1;?>">
                 <input type="submit" name="submit">
             </form>
 
@@ -30,6 +30,7 @@
                             else
                                 echo $string1[$x];
                     }
+//        echo preg_replace("/[a-z]/1","<span style='color:red'>/1</span>",$string1);
                 }
                 function color_change($string2)
                 {

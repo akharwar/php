@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="main-content">
-        <h1>Answer 4:</h1>
+        <h1>Answer 4: Find the greater</h1>
         <?php
             $Number = "";
             if ($_SERVER["REQUEST_METHOD"] == "POST"){
