@@ -3,7 +3,6 @@
         function reverse($string)
         {
             $count = strlen($string);
-            echo "string lenght: ".$count;
             for($x = 0;$x < ($count/2);$x++)
             {
                 $temp = $string[$x];

@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="main-content">
-    <h1>Answer 7:</h1>
+    <h1>Answer 14:</h1>
     <?php
         $range = 0;
         if ($_SERVER["REQUEST_METHOD"] == "POST")

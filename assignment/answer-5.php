@@ -6,10 +6,10 @@
 </head>
 <body>
     <div class="main-content">
-            <h1>Answer 5 :</h1>
+            <h1>Answer 5 : upper and lower case</h1>
             <?php
                 $Color = array('A'=>'Blue','B'=>'Green','c'=>'Red');
-                for($x = 0;$x < 3; $x++)
+                for($x = 0;$x < 2; $x++)
                 {
                     foreach ($Color as $a => $a_value)
                     {
@@ -24,7 +24,7 @@
                     }
                     echo "<br>";
                 }
-                var_dump($Color);
+                print_r($Color);
             ?>
     </div>
 </body>
