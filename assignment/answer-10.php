@@ -9,12 +9,12 @@
     <?php
         $myfile = fopen('string.txt',"r");
         $fread = fread($myfile,filesize('string.txt'));
-        fclose($myfile);
 
-        $find = preg_match('/\b\[[a-zA-Z]\]\b/', $fread,$match);
+
+        $find = preg_match("/\[.*\]$/",$fread,$match);
         echo "<br>".$find."<br>";
-        echo "<br>".$match."<br>";
-        echo "<br>".$match[0]."<br>";
+        print_r($match);
+        fclose($myfile);
     ?>
 
 </div>
