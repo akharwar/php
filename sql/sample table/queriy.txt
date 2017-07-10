@@ -1,0 +1,26 @@
+CREATE TABLE user(
+AdmissionNo int NOT NULL,
+FirstName varchar(255) NOT NULL,
+LastName varchar(255) NOT NULL,
+EmailID varchar(255) NOT NULL,
+Password varchar(255),
+Role varchar(255) ,
+DateOfAdmission TIMESTAMP);
+
+
+
+CREATE TABLE userdetail(
+AdmissionNo int NOT NULL,
+FirstName varchar(255) NOT NULL,
+LastName varchar(255) NOT NULL,
+FatherName varchar(255) NOT NULL,
+MotherName varchar(255) NOT NULL,
+Gender char(1),
+DOB date,
+Phone varchar(13),
+Category varchar(10),
+Address varchar(255),
+City varchar(255),
+EmailID varchar(255) NOT NULL,
+Qulification varchar(255),
+DateOfAdmission TIMESTAMP);
